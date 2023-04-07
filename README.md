@@ -50,6 +50,12 @@ bundle add webrick
 bundle exec jekyll serve
 ```
 
+## Update Gems
+
+```bash
+bundle update github-pages
+```
+
 
 
 
