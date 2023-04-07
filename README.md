@@ -8,7 +8,7 @@ See the official docs [here](https://docs.github.com/en/pages/setting-up-a-githu
 * [Install Ruby](https://rubyinstaller.org/downloads/)
 
 ```bash
-ruby -vjekyll 
+ruby -v
 ```
 
 * [Bundler](https://bundler.io/) - didn't do anything other than use this in commands following, this is just the tool referenced.
@@ -18,14 +18,14 @@ ruby -vjekyll
 ```bash
 gem install jekyll bundler
 jekyll -v
-mkdir template
-cd template
+mkdir src
+cd src
 jekyll new --skip-bundle .
 ```
 
 ## Jekyll Amendments
 
-Update Gemfile, see dependency versions [here](https://pages.github.com/versions/).
+Update Gemfile yaml, see dependency versions [here](https://pages.github.com/versions/).
 
 ```yaml
 # gem "jekyll", "~> 4.3.2"
